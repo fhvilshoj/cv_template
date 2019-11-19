@@ -131,9 +131,17 @@
     \textbf{#2}%
     \hfill%
     \footnotesize\color{blue}{#3}\\%
-    #4 \\\vspace{\parsep}%
+    \color{black}{#4} \\\vspace{\parsep}%
   }\\}
 
+\newcommand{\smallentry}[3]{%
+  \parbox[t]{2cm}{#1}&
+  \parbox[t]{14.1cm}{%
+    \textbf{#2}%
+    \hfill%
+    \footnotesize\color{blue}{#3}\\%
+    % #4 \\\vspace{\parsep}%
+  }\\}
 
 %%%%%%%%%%%%%%%%%
 % Sections      %
